@@ -1,7 +1,7 @@
 # NmapToES
 (First upload so be patient with me)
 ## Functionality
-This is a pretty simple script really that allows for a few things.
+This is a pretty simple script really, that allows for a few things.
 1. Print your local IP address, as well as other IP addresses in the local network. (via a ping sweep and displaying responding endpoints).
 2. You can also run an Nmap scan. You will be prompted an IP and a selected range. By default, nmap will run with `-oX` flag, which per Nmap's website:
 > Write output in Nmap's XML format to <filename>. Normal (human readable) output will still be printed to stdout unless you ask for XML to be directed there by specifying - as <filename>. This is the preferred format for use by scripts and programs that process Nmap results.
